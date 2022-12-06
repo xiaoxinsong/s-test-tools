@@ -49,5 +49,5 @@
     "last 2 versions",
     "not dead"
   ],
-  "main": "dist/test-npm-public.umd.min.js"
+  "main": "lib/s-test-tools.umd.min.js"
 }
