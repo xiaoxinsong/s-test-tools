@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import App from './App.vue';
-import compnent from '../plugins/index.js';
+import compnent from 's-tool-public';
 Vue.use(compnent);
 Vue.config.productionTip = false;
 

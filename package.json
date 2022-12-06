@@ -7,11 +7,13 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "sass-migrator": "sass-migrator division **/*.scss",
-    "lib": "vue-cli-service build --target lib --name s-tool-public --dest lib plugins/index.js"
+    "lib": "vue-cli-service build --target lib --name s-test-tools --dest lib plugins/index.js"
   },
+  "repository": "git@github.com:xiaoxinsong/s-test-tools.git",
   "dependencies": {
     "core-js": "^3.8.3",
     "element-ui": "^2.15.9",
+    "s-tool-public": "^0.1.0",
     "vue": "^2.6.14"
   },
   "devDependencies": {
@@ -23,10 +25,10 @@
     "babel-loader": "^9.1.0",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14",
     "sass": "^1.52.1",
     "sass-loader": "^8.0.2",
-    "sass-migrator": "^1.5.4"
+    "sass-migrator": "^1.5.4",
+    "vue-template-compiler": "^2.6.14"
   },
   "eslintConfig": {
     "root": true,
